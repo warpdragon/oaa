@@ -4,16 +4,27 @@ Layer0
 {
 	shader "global_lit_simple.vfx"
 
+	//---- Scroll UV ----
+	F_SCROLL_UV 1 // Scroll Color Only
+
 	//---- Color ----
 	g_vColorTint "[1.000000 1.000000 1.000000 0.000000]"
 	g_vTexCoordOffset "[0.000 0.000]"
-	g_vTexCoordScale "[1.000 1.000]"
+	g_vTexCoordScale "[0.125 0.125]"
 	TextureColor "materials/models/props/matrix/matrix_rain.png"
+
+	//---- Scroll UV ----
+	g_flScrollUvSpeed "0.125"
+	g_vScrollUvDirection "[0.000 -1.000]"
+	TextureScrollSpeed "materials/default/default.tga"
 
 
 	VariableState
 	{
 		"Color"
+		{
+		}
+		"Scroll UV"
 		{
 		}
 	}
