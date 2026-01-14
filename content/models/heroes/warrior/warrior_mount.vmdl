@@ -26,7 +26,7 @@
 								single_override_material = ""
 							},
 						]
-						filename = "models/heroes/warrior/warrior-mount.dmx"
+						filename = "models/heroes/warrior/horse.dmx"
 						import_scale = 1.0
 						import_filter = 
 						{

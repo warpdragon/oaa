@@ -30,7 +30,7 @@
 								single_override_material = ""
 							},
 						]
-						filename = "models/heroes/warrior/warrior-mounted.dmx"
+						filename = "models/heroes/warrior/warrior.dmx"
 						import_scale = 1.0
 						import_filter = 
 						{
