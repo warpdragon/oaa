@@ -1,0 +1,57 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "global_lit_simple.vfx"
+
+	//---- 2-Sided Rendering ----
+	F_RENDER_BACKFACES 1
+
+	//---- Fullbright ----
+	F_FULLBRIGHT 1
+
+	//---- Tint Mask ----
+	F_TINT_MASK 1
+
+	//---- Translucent ----
+	F_ADDITIVE_BLEND 1
+	F_TRANSLUCENT 1
+
+	//---- Color ----
+	g_vColorTint "[0.537255 0.784314 1.000000 0.000000]"
+	g_vColorTint2 "[1.000000 1.000000 1.000000 0.000000]"
+	g_vTexCoordOffset "[0.000 0.000]"
+	g_vTexCoordScale "[1.000 1.000]"
+	TextureColor "materials/models/heroes/warrior/warrior_trail_color.png"
+	TextureTintMask ""
+
+	//---- Translucent ----
+	g_flOpacityScale "1.000"
+	g_flOverbrightFactor "4.000"
+	TextureTranslucency "materials/models/heroes/warrior/warrior_trail_mask.png"
+
+	UnusedVariables
+	{
+		"g_flAlphaTestReference" "0.01"
+		"g_flWindFlexibility" "0.3"
+		"g_flWindHighFrequencyEffects" "1"
+		"g_flWindLinearity" "0"
+		"g_flWindLowFrequencyEffects" "1"
+		"g_flWindSpeedMultiplier" "1"
+		"TextureWindMaskHigh" ""
+		"TextureWindMaskLow" ""
+		"TextureWindRandomNoise" ""
+		"g_flAlphaAnglePower" "1"
+	}
+
+
+	VariableState
+	{
+		"Color"
+		{
+		}
+		"Translucent"
+		{
+		}
+	}
+}
